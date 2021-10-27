@@ -1,0 +1,9 @@
+Имя: Alex7 из отдела Financial department в отдел Development department
+Имя: Alex5 из отдела Financial department в отдел Legal department
+Имя: Alex6 из отдела Financial department в отдел Legal department
+Имя: Alex7 из отдела Financial department в отдел Legal department
+Имя: Alex5 из отдела Financial department в отдел Transportation department
+Имя: Alex6 из отдела Financial department в отдел Transportation department
+Имя: Alex7 из отдела Financial department в отдел Transportation department
+Имя: Alex20 из отдела Development department в отдел Legal department
+Имя: Alex20 из отдела Development department в отдел Transportation department

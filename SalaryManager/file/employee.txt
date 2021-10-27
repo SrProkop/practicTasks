@@ -1,21 +1,21 @@
-id,name,idDepartment,salary
-1,Alex,1,30000
-2,Alex,1,40000
-3,Alex,1,35000
-4,Alex,1,45000
-5,Alex,1,20000
-6,Alex,2,40000
-7,Alex,2,45000
-8,Alex,2,50000
-9,Alex,2,80000
-10,Alex,3,20000
-11,Alex,3,25000
-12,Alex,3,50000
-13,Alex,3,30000
-14,Alex,4,30000
-15,Alex,4,80000
-16,Alex,4,120000
-17,Alex,4,20000
-18,Alex,4,30000
-19,Alex,4,15000
-20,Alex,4,50000
+Alex0,Legal department,30000
+Alex1,Legal department,40000
+Alex2,Legal department,35000
+Alex3,Legal department,45000
+Alex4,Legal department,20000
+Alex5,Financial department,40000
+Alex6,Financial department,45000
+Alex7,Financial department,50000
+Alex8,Financial department,80000
+Alex9,Transportation department,20000
+Alex10,Transportation department,25000
+Alex11,Transportation department,50000
+Alex12,Transportation department,30000
+Alex13,Development department,30000
+Alex14,Development department,80000
+Alex15,Development department,120000
+Alex16,Development department,20000
+Alex17,Development department,30000
+Alex18,Development department,15000
+Alex19,Development department,50000
+Alex20,Development department,45000
