@@ -1,18 +1,17 @@
-package ru.t1.SalaryManager.models;
+package ru.t1.salaryManager.models;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
 public class Employee {
     private String name;
-    private String departmentName;
     private BigDecimal salary;
 
     public Employee() {
     }
 
-    public Employee(String name, String departmentName, BigDecimal salary) {
+    public Employee(String name, BigDecimal salary) {
         this.name = name;
-        this.departmentName = departmentName;
         this.salary = salary;
     }
 
@@ -22,14 +21,6 @@ public class Employee {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getDepartmentName() {
-        return departmentName;
-    }
-
-    public void setDepartmentName(String departmentName) {
-        this.departmentName = departmentName;
     }
 
     public BigDecimal getSalary() {
@@ -44,8 +35,21 @@ public class Employee {
     public String toString() {
         return "Employee{" +
                 "name='" + name + '\'' +
-                ", departmentName='" + departmentName + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return Objects.equals(name, employee.name) &&
+                Objects.equals(salary, employee.salary);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, salary);
     }
 }

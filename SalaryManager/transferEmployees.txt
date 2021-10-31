@@ -1,9 +1,27 @@
-Имя: Alex7 из отдела Financial department в отдел Development department
-Имя: Alex5 из отдела Financial department в отдел Legal department
-Имя: Alex6 из отдела Financial department в отдел Legal department
-Имя: Alex7 из отдела Financial department в отдел Legal department
-Имя: Alex5 из отдела Financial department в отдел Transportation department
-Имя: Alex6 из отдела Financial department в отдел Transportation department
-Имя: Alex7 из отдела Financial department в отдел Transportation department
-Имя: Alex20 из отдела Development department в отдел Legal department
-Имя: Alex20 из отдела Development department в отдел Transportation department
+Имя: Alex7 из отдела Financial department с средней зп 53750.00 в отдел Development department с средней зп 48750.00
+После перевода в отделе Financial department средняя зп станет 55000.00, а в отделе Development department средняя зп станет 48888.89
+
+Имя: Alex5 из отдела Financial department с средней зп 53750.00 в отдел Legal department с средней зп 34000.00
+После перевода в отделе Financial department средняя зп станет 58333.33, а в отделе Legal department средняя зп станет 35000.00
+
+Имя: Alex6 из отдела Financial department с средней зп 53750.00 в отдел Legal department с средней зп 34000.00
+После перевода в отделе Financial department средняя зп станет 56666.67, а в отделе Legal department средняя зп станет 35833.33
+
+Имя: Alex7 из отдела Financial department с средней зп 53750.00 в отдел Legal department с средней зп 34000.00
+После перевода в отделе Financial department средняя зп станет 55000.00, а в отделе Legal department средняя зп станет 36666.67
+
+Имя: Alex5 из отдела Financial department с средней зп 53750.00 в отдел Transportation department с средней зп 31250.00
+После перевода в отделе Financial department средняя зп станет 58333.33, а в отделе Transportation department средняя зп станет 33000.00
+
+Имя: Alex6 из отдела Financial department с средней зп 53750.00 в отдел Transportation department с средней зп 31250.00
+После перевода в отделе Financial department средняя зп станет 56666.67, а в отделе Transportation department средняя зп станет 34000.00
+
+Имя: Alex7 из отдела Financial department с средней зп 53750.00 в отдел Transportation department с средней зп 31250.00
+После перевода в отделе Financial department средняя зп станет 55000.00, а в отделе Transportation department средняя зп станет 35000.00
+
+Имя: Alex20 из отдела Development department с средней зп 48750.00 в отдел Legal department с средней зп 34000.00
+После перевода в отделе Development department средняя зп станет 49285.71, а в отделе Legal department средняя зп станет 35833.33
+
+Имя: Alex20 из отдела Development department с средней зп 48750.00 в отдел Transportation department с средней зп 31250.00
+После перевода в отделе Development department средняя зп станет 49285.71, а в отделе Transportation department средняя зп станет 34000.00
+

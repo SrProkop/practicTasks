@@ -1,4 +1,4 @@
-package ru.t1.SalaryManager.models;
+package ru.t1.salaryManager.models;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -11,24 +11,45 @@ public class Department {
     private List<Employee> employees;
 
     public Department() {
+        this.employees = new ArrayList<>();
     }
 
     public Department(String name) {
-        this.name = name;
+        this.name = name.trim();
         this.employees = new ArrayList<>();
     }
 
     public BigDecimal getAvgSalary() {
-        if (employees.size() > 0) {
+        return getBigDecimal(employees);
+    }
+
+    private BigDecimal getAvgSalary(List<Employee> list) {
+        return getBigDecimal(list);
+    }
+
+    private BigDecimal getBigDecimal(List<Employee> list) {
+        if (list.size() > 0) {
             BigDecimal avgSalary = new BigDecimal(0);
-            for (Employee employee : employees) {
+            for (Employee employee : list) {
                 avgSalary = avgSalary.add(employee.getSalary());
             }
-            return avgSalary.divide(new BigDecimal(employees.size()), 2, RoundingMode.HALF_UP);
+            return avgSalary.divide(new BigDecimal(list.size()), 2, RoundingMode.HALF_UP);
         } else {
-            System.out.println("В этом отделе нет сотрудников");
+            System.out.println("В " + this.name + " нет сотрудников");
             return new BigDecimal(0);
         }
+    }
+
+    public BigDecimal getAvgWithoutEmployee(Employee employee) {
+        List<Employee> list = new ArrayList<>(employees);
+        list.remove(employee);
+        return getAvgSalary(list);
+    }
+
+    public BigDecimal getAvgWithEmployee(Employee employee) {
+        List<Employee> list = new ArrayList<>(employees);
+        list.add(employee);
+        return getAvgSalary(list);
     }
 
     public String getName() {
@@ -36,7 +57,7 @@ public class Department {
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name = name.trim();
     }
 
     public List<Employee> getEmployees() {
