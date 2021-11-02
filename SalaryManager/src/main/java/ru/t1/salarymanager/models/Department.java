@@ -1,4 +1,4 @@
-package ru.t1.salaryManager.models;
+package ru.t1.salarymanager.models;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -19,37 +19,58 @@ public class Department {
         this.employees = new ArrayList<>();
     }
 
+    public static BigDecimal getAvgSalaryEmployees(List<Employee> employees) {
+        if (employees.size() > 0) {
+            BigDecimal avgSalary = BigDecimal.ZERO;
+            for (Employee employee : employees) {
+                avgSalary = avgSalary.add(employee.getSalary());
+            }
+            return avgSalary.divide(new BigDecimal(employees.size()), 2, RoundingMode.HALF_UP);
+        } else {
+            System.out.println("Список пустой");
+            return BigDecimal.ZERO;
+        }
+    }
+
     public BigDecimal getAvgSalary() {
-        return getBigDecimal(employees);
+        return getResultAvgSalary(employees);
     }
 
-    private BigDecimal getAvgSalary(List<Employee> list) {
-        return getBigDecimal(list);
-    }
-
-    private BigDecimal getBigDecimal(List<Employee> list) {
+    private BigDecimal getResultAvgSalary(List<Employee> list) {
         if (list.size() > 0) {
-            BigDecimal avgSalary = new BigDecimal(0);
+            BigDecimal avgSalary = BigDecimal.ZERO;
             for (Employee employee : list) {
                 avgSalary = avgSalary.add(employee.getSalary());
             }
             return avgSalary.divide(new BigDecimal(list.size()), 2, RoundingMode.HALF_UP);
         } else {
             System.out.println("В " + this.name + " нет сотрудников");
-            return new BigDecimal(0);
+            return BigDecimal.ZERO;
         }
     }
 
     public BigDecimal getAvgWithoutEmployee(Employee employee) {
         List<Employee> list = new ArrayList<>(employees);
         list.remove(employee);
-        return getAvgSalary(list);
+        return getResultAvgSalary(list);
     }
 
     public BigDecimal getAvgWithEmployee(Employee employee) {
-        List<Employee> list = new ArrayList<>(employees);
+        List<Employee> list = new ArrayList<>(this.employees);
         list.add(employee);
-        return getAvgSalary(list);
+        return getResultAvgSalary(list);
+    }
+
+    public BigDecimal getAvgWithoutEmployees(List<Employee> employees) {
+        List<Employee> list = new ArrayList<>(this.employees);
+        list.removeAll(employees);
+        return getResultAvgSalary(list);
+    }
+
+    public BigDecimal getAvgWithEmployees(List<Employee> employees) {
+        List<Employee> list = new ArrayList<>(employees);
+        list.addAll(employees);
+        return getResultAvgSalary(list);
     }
 
     public String getName() {

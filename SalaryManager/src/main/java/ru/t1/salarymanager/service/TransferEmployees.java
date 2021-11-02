@@ -1,19 +1,18 @@
-package ru.t1.salaryManager.service;
+package ru.t1.salarymanager.service;
 
-import ru.t1.salaryManager.models.Department;
-import ru.t1.salaryManager.models.Employee;
+import ru.t1.salarymanager.models.Department;
+import ru.t1.salarymanager.models.Employee;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.util.Collections;
 import java.util.List;
 
 public class TransferEmployees {
 
-    public static void createFileTransferEmployeesBetweenDepartments(List<Department> departments,
+    public static void createFileTransferEmployees(List<Department> departments,
                                                                      String path) {
-        Collections.sort(departments, (o1, o2) -> o2.getAvgSalary().compareTo(o1.getAvgSalary()));
+        departments.sort((o1, o2) -> o2.getAvgSalary().compareTo(o1.getAvgSalary()));
         try (FileWriter writer = new FileWriter(path, false)) {
             for (int i = 0; i < departments.size(); i++) {
                 BigDecimal avgSalaryDepartmentI = departments.get(i).getAvgSalary();
@@ -64,7 +63,6 @@ public class TransferEmployees {
                     "\n\n");
         } catch (IOException e) {
             System.out.println("Ошибка записи файла");
-            return;
         }
     }
 }

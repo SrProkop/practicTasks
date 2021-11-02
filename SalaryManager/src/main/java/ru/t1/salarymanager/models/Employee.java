@@ -1,4 +1,4 @@
-package ru.t1.salaryManager.models;
+package ru.t1.salarymanager.models;
 
 import java.math.BigDecimal;
 import java.util.Objects;

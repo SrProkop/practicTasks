@@ -1,27 +1,1566 @@
-Имя: Alex7 из отдела Financial department с средней зп 53750.00 в отдел Development department с средней зп 48750.00
-После перевода в отделе Financial department средняя зп станет 55000.00, а в отделе Development department средняя зп станет 48888.89
+Из отдела Financial department со средней зп 53750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex5 - 40000
+Alex6 - 45000
+Alex7 - 50000
+После перевода средняя зп в отделе Financial department будет 80000.00, а в отделе Legal department средня зп будет 45000.00
 
-Имя: Alex5 из отдела Financial department с средней зп 53750.00 в отдел Legal department с средней зп 34000.00
-После перевода в отделе Financial department средняя зп станет 58333.33, а в отделе Legal department средняя зп станет 35000.00
+Из отдела Financial department со средней зп 53750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex5 - 40000
+Alex6 - 45000
+После перевода средняя зп в отделе Financial department будет 65000.00, а в отделе Legal department средня зп будет 42500.00
 
-Имя: Alex6 из отдела Financial department с средней зп 53750.00 в отдел Legal department с средней зп 34000.00
-После перевода в отделе Financial department средняя зп станет 56666.67, а в отделе Legal department средняя зп станет 35833.33
+Из отдела Financial department со средней зп 53750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex5 - 40000
+Alex7 - 50000
+После перевода средняя зп в отделе Financial department будет 62500.00, а в отделе Legal department средня зп будет 45000.00
 
-Имя: Alex7 из отдела Financial department с средней зп 53750.00 в отдел Legal department с средней зп 34000.00
-После перевода в отделе Financial department средняя зп станет 55000.00, а в отделе Legal department средняя зп станет 36666.67
+Из отдела Financial department со средней зп 53750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex6 - 45000
+Alex7 - 50000
+После перевода средняя зп в отделе Financial department будет 60000.00, а в отделе Legal department средня зп будет 47500.00
 
-Имя: Alex5 из отдела Financial department с средней зп 53750.00 в отдел Transportation department с средней зп 31250.00
-После перевода в отделе Financial department средняя зп станет 58333.33, а в отделе Transportation department средняя зп станет 33000.00
+Из отдела Financial department со средней зп 53750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex5 - 40000
+Alex6 - 45000
+Alex7 - 50000
+После перевода средняя зп в отделе Financial department будет 80000.00, а в отделе Transportation department средня зп будет 45000.00
 
-Имя: Alex6 из отдела Financial department с средней зп 53750.00 в отдел Transportation department с средней зп 31250.00
-После перевода в отделе Financial department средняя зп станет 56666.67, а в отделе Transportation department средняя зп станет 34000.00
+Из отдела Financial department со средней зп 53750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex5 - 40000
+Alex6 - 45000
+После перевода средняя зп в отделе Financial department будет 65000.00, а в отделе Transportation department средня зп будет 42500.00
 
-Имя: Alex7 из отдела Financial department с средней зп 53750.00 в отдел Transportation department с средней зп 31250.00
-После перевода в отделе Financial department средняя зп станет 55000.00, а в отделе Transportation department средняя зп станет 35000.00
+Из отдела Financial department со средней зп 53750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex5 - 40000
+Alex7 - 50000
+После перевода средняя зп в отделе Financial department будет 62500.00, а в отделе Transportation department средня зп будет 45000.00
 
-Имя: Alex20 из отдела Development department с средней зп 48750.00 в отдел Legal department с средней зп 34000.00
-После перевода в отделе Development department средняя зп станет 49285.71, а в отделе Legal department средняя зп станет 35833.33
+Из отдела Financial department со средней зп 53750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex6 - 45000
+Alex7 - 50000
+После перевода средняя зп в отделе Financial department будет 60000.00, а в отделе Transportation department средня зп будет 47500.00
 
-Имя: Alex20 из отдела Development department с средней зп 48750.00 в отдел Transportation department с средней зп 31250.00
-После перевода в отделе Development department средняя зп станет 49285.71, а в отделе Transportation department средняя зп станет 34000.00
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 120000.00, а в отделе Legal department средня зп будет 38571.43
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 80000.00, а в отделе Legal department средня зп будет 44285.71
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Legal department средня зп будет 48571.43
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 85000.00, а в отделе Legal department средня зп будет 36666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Legal department средня зп будет 43333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 82500.00, а в отделе Legal department средня зп будет 37500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 62500.00, а в отделе Legal department средня зп будет 44166.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 71666.67, а в отделе Legal department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 58333.33, а в отделе Legal department средня зп будет 43000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 75000.00, а в отделе Legal department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 66666.67, а в отделе Legal department средня зп будет 38000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 53333.33, а в отделе Legal department средня зп будет 46000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Legal department средня зп будет 39000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Legal department средня зп будет 47000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Legal department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51250.00, а в отделе Legal department средня зп будет 46250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 75000.00, а в отделе Legal department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 66666.67, а в отделе Legal department средня зп будет 38000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 53333.33, а в отделе Legal department средня зп будет 46000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Legal department средня зп будет 39000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Legal department средня зп будет 47000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Legal department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51250.00, а в отделе Legal department средня зп будет 46250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 60000.00, а в отделе Legal department средня зп будет 42000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 57500.00, а в отделе Legal department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 56250.00, а в отделе Legal department средня зп будет 41250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 38333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 70000.00, а в отделе Legal department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Legal department средня зп будет 48333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 63333.33, а в отделе Legal department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Legal department средня зп будет 48000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61666.67, а в отделе Legal department средня зп будет 41000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 58750.00, а в отделе Legal department средня зп будет 38750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 56666.67, а в отделе Legal department средня зп будет 44000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 62500.00, а в отделе Legal department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 42500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Legal department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Legal department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 56666.67, а в отделе Legal department средня зп будет 44000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 62500.00, а в отделе Legal department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 42500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Legal department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Legal department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Legal department средня зп будет 47500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 56000.00, а в отделе Legal department средня зп будет 36666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Legal department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 49000.00, а в отделе Legal department средня зп будет 48333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 49166.67, а в отделе Legal department средня зп будет 47500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 67500.00, а в отделе Legal department средня зп будет 42500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 71666.67, а в отделе Legal department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61666.67, а в отделе Legal department средня зп будет 41000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 60000.00, а в отделе Legal department средня зп будет 42000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 57500.00, а в отделе Legal department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Legal department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Legal department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Legal department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52000.00, а в отделе Legal department средня зп будет 43333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Legal department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Legal department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Legal department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52000.00, а в отделе Legal department средня зп будет 43333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Legal department средня зп будет 38333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 49000.00, а в отделе Legal department средня зп будет 48333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 53333.33, а в отделе Legal department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Legal department средня зп будет 47000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 58750.00, а в отделе Legal department средня зп будет 38750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 51250.00, а в отделе Legal department средня зп будет 46250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 57000.00, а в отделе Legal department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Legal department средня зп будет 47500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 56000.00, а в отделе Legal department средня зп будет 36666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Legal department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Legal department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Legal department средня зп будет 37500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Legal department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Legal department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex17 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Legal department средня зп будет 37500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex17 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Legal department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Legal department со средней зп 34000.00
+Перевести следующих сотрудников: 
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 49166.67, а в отделе Legal department средня зп будет 47500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 120000.00, а в отделе Transportation department средня зп будет 38571.43
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 80000.00, а в отделе Transportation department средня зп будет 44285.71
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 100000.00, а в отделе Transportation department средня зп будет 31666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Transportation department средня зп будет 48571.43
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 85000.00, а в отделе Transportation department средня зп будет 36666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Transportation department средня зп будет 43333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 82500.00, а в отделе Transportation department средня зп будет 37500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 62500.00, а в отделе Transportation department средня зп будет 44166.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 71666.67, а в отделе Transportation department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 58333.33, а в отделе Transportation department средня зп будет 43000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 75000.00, а в отделе Transportation department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 76666.67, а в отделе Transportation department средня зп будет 32000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 66666.67, а в отделе Transportation department средня зп будет 38000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 53333.33, а в отделе Transportation department средня зп будет 46000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Transportation department средня зп будет 39000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Transportation department средня зп будет 47000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Transportation department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex13 - 30000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51250.00, а в отделе Transportation department средня зп будет 46250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 75000.00, а в отделе Transportation department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 76666.67, а в отделе Transportation department средня зп будет 32000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 66666.67, а в отделе Transportation department средня зп будет 38000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 53333.33, а в отделе Transportation department средня зп будет 46000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Transportation department средня зп будет 39000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Transportation department средня зп будет 47000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Transportation department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex17 - 30000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 51250.00, а в отделе Transportation department средня зп будет 46250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 60000.00, а в отделе Transportation department средня зп будет 42000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Transportation department средня зп будет 32500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 57500.00, а в отделе Transportation department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 56250.00, а в отделе Transportation department средня зп будет 41250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex16 - 20000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 38333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 70000.00, а в отделе Transportation department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Transportation department средня зп будет 48333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 73333.33, а в отделе Transportation department средня зп будет 34000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 63333.33, а в отделе Transportation department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex15 - 120000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Transportation department средня зп будет 48000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61666.67, а в отделе Transportation department средня зп будет 41000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 58750.00, а в отделе Transportation department средня зп будет 38750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 56666.67, а в отделе Transportation department средня зп будет 44000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 62500.00, а в отделе Transportation department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 42500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Transportation department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 59000.00, а в отделе Transportation department средня зп будет 31666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex13 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Transportation department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 56666.67, а в отделе Transportation department средня зп будет 44000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 62500.00, а в отделе Transportation department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 42500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Transportation department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 59000.00, а в отделе Transportation department средня зп будет 31666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Transportation department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Transportation department средня зп будет 47500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 56000.00, а в отделе Transportation department средня зп будет 36666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Transportation department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 49000.00, а в отделе Transportation department средня зп будет 48333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 54166.67, а в отделе Transportation department средня зп будет 32500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex18 - 15000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 49166.67, а в отделе Transportation department средня зп будет 47500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 67500.00, а в отделе Transportation department средня зп будет 42500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 71666.67, а в отделе Transportation department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 61666.67, а в отделе Transportation department средня зп будет 41000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 60000.00, а в отделе Transportation department средня зп будет 42000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 65000.00, а в отделе Transportation department средня зп будет 32500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 57500.00, а в отделе Transportation department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Transportation department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Transportation department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 59000.00, а в отделе Transportation department средня зп будет 31666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Transportation department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 58000.00, а в отделе Transportation department средня зп будет 33333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex13 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52000.00, а в отделе Transportation department средня зп будет 43333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 61250.00, а в отделе Transportation department средня зп будет 36250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 53750.00, а в отделе Transportation department средня зп будет 43750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 59000.00, а в отделе Transportation department средня зп будет 31666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Transportation department средня зп будет 45000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 58000.00, а в отделе Transportation department средня зп будет 33333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 52000.00, а в отделе Transportation department средня зп будет 43333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 55000.00, а в отделе Transportation department средня зп будет 38333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 49000.00, а в отделе Transportation department средня зп будет 48333.33
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 54166.67, а в отделе Transportation department средня зп будет 32500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex16 - 20000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 53333.33, а в отделе Transportation department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Transportation department средня зп будет 47000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 58750.00, а в отделе Transportation department средня зп будет 38750.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 51250.00, а в отделе Transportation department средня зп будет 46250.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 57000.00, а в отделе Transportation department средня зп будет 35000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Transportation department средня зп будет 47500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 56000.00, а в отделе Transportation department средня зп будет 36666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex17 - 30000
+Alex14 - 80000
+После перевода средняя зп в отделе Development department будет 50000.00, а в отделе Transportation department средня зп будет 46666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Transportation department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Transportation department средня зп будет 37500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex13 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Transportation department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex17 - 30000
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 53000.00, а в отделе Transportation department средня зп будет 41666.67
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex17 - 30000
+Alex20 - 45000
+После перевода средняя зп в отделе Development department будет 52500.00, а в отделе Transportation department средня зп будет 37500.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex17 - 30000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 51666.67, а в отделе Transportation department средня зп будет 40000.00
+
+Из отдела Development department со средней зп 48750.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex20 - 45000
+Alex19 - 50000
+После перевода средняя зп в отделе Development department будет 49166.67, а в отделе Transportation department средня зп будет 47500.00
+
+Из отдела Legal department со средней зп 34000.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex4 - 20000
+Alex0 - 30000
+Alex2 - 35000
+Alex3 - 45000
+После перевода средняя зп в отделе Legal department будет 40000.00, а в отделе Transportation department средня зп будет 32500.00
+
+Из отдела Legal department со средней зп 34000.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex4 - 20000
+Alex0 - 30000
+Alex1 - 40000
+Alex3 - 45000
+После перевода средняя зп в отделе Legal department будет 35000.00, а в отделе Transportation department средня зп будет 33750.00
+
+Из отдела Legal department со средней зп 34000.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex4 - 20000
+Alex0 - 30000
+Alex3 - 45000
+После перевода средняя зп в отделе Legal department будет 37500.00, а в отделе Transportation department средня зп будет 31666.67
+
+Из отдела Legal department со средней зп 34000.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex4 - 20000
+Alex2 - 35000
+Alex1 - 40000
+После перевода средняя зп в отделе Legal department будет 37500.00, а в отделе Transportation department средня зп будет 31666.67
+
+Из отдела Legal department со средней зп 34000.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex4 - 20000
+Alex2 - 35000
+Alex3 - 45000
+После перевода средняя зп в отделе Legal department будет 35000.00, а в отделе Transportation department средня зп будет 33333.33
+
+Из отдела Legal department со средней зп 34000.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex4 - 20000
+Alex3 - 45000
+После перевода средняя зп в отделе Legal department будет 35000.00, а в отделе Transportation department средня зп будет 32500.00
+
+Из отдела Legal department со средней зп 34000.00 в отдел Transportation department со средней зп 31250.00
+Перевести следующих сотрудников: 
+Alex0 - 30000
+Alex2 - 35000
+После перевода средняя зп в отделе Legal department будет 35000.00, а в отделе Transportation department средня зп будет 32500.00
 

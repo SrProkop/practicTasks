@@ -1,7 +1,7 @@
-package ru.t1.salaryManager.parsers;
+package ru.t1.salarymanager.parsers;
 
-import ru.t1.salaryManager.models.Department;
-import ru.t1.salaryManager.models.Employee;
+import ru.t1.salarymanager.models.Department;
+import ru.t1.salarymanager.models.Employee;
 
 import java.io.*;
 import java.math.BigDecimal;
@@ -19,10 +19,10 @@ public class DepartmentParserTxt implements IParser{
             while (line != null) {
                 String[] lineSplit = line.split(",");
                 if (isValidLine(lineSplit, numberLine)) {
-                    Employee employee = new Employee(lineSplit[0], new BigDecimal(lineSplit[2]));
+                    Employee employee = new Employee(lineSplit[0].trim(), new BigDecimal(lineSplit[2]));
                     Department department = new Department(lineSplit[1]);
                     departments.putIfAbsent(lineSplit[1].trim(), department);
-                    departments.get(lineSplit[1]).getEmployees().add(employee);
+                    departments.get(lineSplit[1].trim()).getEmployees().add(employee);
                 }
                 line = reader.readLine();
                 numberLine++;
@@ -64,12 +64,12 @@ public class DepartmentParserTxt implements IParser{
         try {
             BigDecimal bigDecimal = new BigDecimal(line);
             String[] splitLine = line.split("\\.");
-            if (splitLine.length == 2 && splitLine[1].toCharArray().length > 2) {
+            if (splitLine.length == 2 && splitLine[1].length() > 2) {
                 System.out.println("Ошибка в строке " + numberLine +
                         ": округлите зарплату до сотых копеек");
                 return false;
             }
-            if (bigDecimal.intValue() < 0) {
+            if (bigDecimal.compareTo(BigDecimal.ZERO) < 0) {
                 System.out.println("Ошибка в строке " + numberLine +
                         ": зарплата не может быть отрицательной");
                 return false;

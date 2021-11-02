@@ -1,6 +1,6 @@
-package ru.t1.salaryManager.parsers;
+package ru.t1.salarymanager.parsers;
 
-import ru.t1.salaryManager.models.Department;
+import ru.t1.salarymanager.models.Department;
 
 import java.util.Map;
 import java.util.Optional;
