@@ -17,8 +17,6 @@ public class MapMerging implements IMerging{
                 List<Character> listValueOne = mapModelOne.get(key);
                 List<Character> listValueTwo = mapModelTwo.get(key);
                 if (listValueTwo != null && listValueOne != null) {
-                    System.out.println(listValueOne.size());
-                    System.out.println(listValueTwo.size());
                     writeFile(key, listValueOne, listValueTwo, writer);
                 }
             }
@@ -38,11 +36,6 @@ public class MapMerging implements IMerging{
                 list.add(model.getValue());
                 modelMap.put(model.getId(), list);
             }
-        }
-        for (Map.Entry<Integer, List<Character>> entry : modelMap.entrySet()) {
-            System.out.println(entry.getKey());
-            System.out.println(entry.getValue().toString());
-            System.out.println("\n");
         }
         return modelMap;
     }

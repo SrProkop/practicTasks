@@ -11,20 +11,26 @@ import ru.t1.innerjoin.parsers.ParserTxt;
 import java.util.List;
 import java.util.Optional;
 
+/* Первый и второй аргументы - исходные файлы для чтения
+*  С третьего по пятый аргументы - выходные файлы для записи по каждой коллекции */
+
 public class Main {
 
-    private static IParser parserTxt = new ParserTxt();
-
     public static void main(String[] args) {
-        Optional<List<List<Model>>> lists = parserTxt.parser("file\\file1.txt",
-                "file\\file2.txt");
-        if (lists.isPresent()) {
-            IMerging merging = new ArrayListMerging();
-            merging.createFileMergers(lists.get(), "arrayListMerging.txt");
-            merging = new LinkedListMerging();
-            merging.createFileMergers(lists.get(), "linkedListMerging.txt");
-            merging = new MapMerging();
-            merging.createFileMergers(lists.get(), "mapListMerging.txt");
+        IParser parserTxt = new ParserTxt();
+        if (args.length == 5) {
+            Optional<List<List<Model>>> lists = parserTxt.parser(args[0],
+                    args[1]);
+            if (lists.isPresent()) {
+                IMerging merging = new ArrayListMerging();
+                merging.createFileMergers(lists.get(), args[2]);
+                merging = new LinkedListMerging();
+                merging.createFileMergers(lists.get(), args[3]);
+                merging = new MapMerging();
+                merging.createFileMergers(lists.get(), args[4]);
+            } else {
+                System.out.println("Ошибка ввода аргументов");
+            }
         }
 
     }
