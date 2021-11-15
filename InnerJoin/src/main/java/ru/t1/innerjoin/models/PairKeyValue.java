@@ -1,14 +1,14 @@
 package ru.t1.innerjoin.models;
 
-public class Model {
+public class PairKeyValue {
     private int id;
-    private char value;
+    private String value;
 
-    public Model() {
+    public PairKeyValue() {
     }
 
 
-    public Model(int id, char value) {
+    public PairKeyValue(int id, String value) {
         this.id = id;
         this.value = value;
     }
@@ -21,11 +21,11 @@ public class Model {
         this.id = id;
     }
 
-    public char getValue() {
+    public String getValue() {
         return value;
     }
 
-    public void setValue(char value) {
+    public void setValue(String value) {
         this.value = value;
     }
 

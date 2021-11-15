@@ -33,44 +33,31 @@ public class Department {
     }
 
     public BigDecimal getAvgSalary() {
-        return getResultAvgSalary(employees);
-    }
-
-    private BigDecimal getResultAvgSalary(List<Employee> list) {
-        if (list.size() > 0) {
-            BigDecimal avgSalary = BigDecimal.ZERO;
-            for (Employee employee : list) {
-                avgSalary = avgSalary.add(employee.getSalary());
-            }
-            return avgSalary.divide(new BigDecimal(list.size()), 2, RoundingMode.HALF_UP);
-        } else {
-            System.out.println("В " + this.name + " нет сотрудников");
-            return BigDecimal.ZERO;
-        }
+        return Department.getAvgSalaryEmployees(employees);
     }
 
     public BigDecimal getAvgWithoutEmployee(Employee employee) {
         List<Employee> list = new ArrayList<>(employees);
         list.remove(employee);
-        return getResultAvgSalary(list);
+        return Department.getAvgSalaryEmployees(list);
     }
 
     public BigDecimal getAvgWithEmployee(Employee employee) {
         List<Employee> list = new ArrayList<>(this.employees);
         list.add(employee);
-        return getResultAvgSalary(list);
+        return Department.getAvgSalaryEmployees(list);
     }
 
     public BigDecimal getAvgWithoutEmployees(List<Employee> employees) {
         List<Employee> list = new ArrayList<>(this.employees);
         list.removeAll(employees);
-        return getResultAvgSalary(list);
+        return Department.getAvgSalaryEmployees(list);
     }
 
     public BigDecimal getAvgWithEmployees(List<Employee> employees) {
         List<Employee> list = new ArrayList<>(employees);
         list.addAll(employees);
-        return getResultAvgSalary(list);
+        return Department.getAvgSalaryEmployees(list);
     }
 
     public String getName() {

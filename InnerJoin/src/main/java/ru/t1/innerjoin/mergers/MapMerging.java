@@ -1,61 +1,28 @@
 package ru.t1.innerjoin.mergers;
 
-import ru.t1.innerjoin.models.Model;
+import ru.t1.innerjoin.models.PairKeyValue;
+import ru.t1.innerjoin.service.PairWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.*;
 
-public class MapMerging implements IMerging{
+public class MapMerging implements IMerging<HashMap<Integer, List<PairKeyValue>>> {
     @Override
-    public void createFileMergers(List<List<Model>> lists, String path) {
-        Map<Integer, List<Character>> mapModelOne = converterListToMap(lists.get(0));
-        Map<Integer, List<Character>> mapModelTwo = converterListToMap(lists.get(1));
+    public void createFileMergers(HashMap<Integer, List<PairKeyValue>> mapOne, HashMap<Integer, List<PairKeyValue>> mapTwo, String path) {
         try (FileWriter writer = new FileWriter(path, false)) {
-            for (Integer key : mapModelOne.keySet()) {
-                List<Character> listValueOne = mapModelOne.get(key);
-                List<Character> listValueTwo = mapModelTwo.get(key);
-                if (listValueTwo != null && listValueOne != null) {
-                    writeFile(key, listValueOne, listValueTwo, writer);
+            for (Integer key : mapOne.keySet()) {
+                if (mapOne.containsKey(key) && mapTwo.containsKey(key)) {
+                    List<PairKeyValue> listPairOne = mapOne.get(key);
+                    List<PairKeyValue> listPairTwo = mapTwo.get(key);
+                    for (PairKeyValue pairOne : listPairOne) {
+                        for (PairKeyValue pairTwo : listPairTwo) {
+                            PairWriter.write(key, pairOne.getValue(), pairTwo.getValue(), writer);
+                        }
+                    }
                 }
             }
-        } catch (IOException e) {
-            System.out.println("Ошибка записи файла");
-        }
-
-    }
-
-    private Map<Integer, List<Character>> converterListToMap(List<Model> modelList) {
-        Map<Integer, List<Character>> modelMap = new HashMap<>();
-        for (Model model : modelList) {
-            if (modelMap.containsKey(model.getId())) {
-                modelMap.get(model.getId()).add(model.getValue());
-            } else {
-                ArrayList<Character> list = new ArrayList<>();
-                list.add(model.getValue());
-                modelMap.put(model.getId(), list);
-            }
-        }
-        return modelMap;
-    }
-
-    private void writeFile(Integer id,
-                           List<Character> valueListOne,
-                           List<Character> valueListTwo,
-                           FileWriter writer) {
-        try {
-            for (Character charOne : valueListOne) {
-                for (Character charTwo: valueListTwo) {
-                    writer.write(id +
-                            "\t" +
-                            charOne +
-                            "\t" +
-                            charTwo +
-                            "\n");
-                }
-            }
-        } catch (IOException e) {
+        } catch(IOException e){
             System.out.println("Ошибка записи файла");
         }
     }

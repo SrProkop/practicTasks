@@ -1,47 +1,49 @@
 package ru.t1.innerjoin.mergers;
 
-import ru.t1.innerjoin.models.Model;
+import ru.t1.innerjoin.models.PairKeyValue;
+import ru.t1.innerjoin.service.PairWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
-public class LinkedListMerging implements IMerging {
+public class LinkedListMerging implements IMerging <LinkedList<PairKeyValue>> {
     @Override
-    public void createFileMergers(List<List<Model>> lists, String path) {
-        List<Model> listOne = new LinkedList<>(lists.get(0));
-        listOne.sort(Comparator.comparing(Model::getId));
-        List<Model> listTwo = new LinkedList<>(lists.get(1));
-        listTwo.sort(Comparator.comparing(Model::getId));
+    public void createFileMergers(LinkedList<PairKeyValue> listOne, LinkedList<PairKeyValue> listTwo, String path) {
         try (FileWriter writer = new FileWriter(path, false)){
-            for (Model modelOne : listOne) {
-                for (Model modelTwo : listTwo) {
-                    if (modelOne.getId() > listTwo.get(listTwo.size() - 1).getId()) {
+            for(int i = 0, j = 0; i < listOne.size() || j < listTwo.size();) {
+                PairKeyValue pairOne = listOne.get(i);
+                PairKeyValue pairTwo = listTwo.get(j);
+                int idOne = pairOne.getId();
+                int idTwo = pairTwo.getId();
+                if (idOne == idTwo) {
+                    int nextIndexTwo = j;
+                    int nextIdTwo = idTwo;
+                    while (idOne == nextIdTwo) {
+                        PairWriter.write(idOne, pairOne.getValue(), pairTwo.getValue(), writer);
+                        nextIndexTwo++;
+                        if (listTwo.size() > nextIndexTwo) {
+                            nextIdTwo = listTwo.get(nextIndexTwo).getId();
+                            pairTwo = listTwo.get(nextIndexTwo);
+                        } else {
+                            break;
+                        }
+                    }
+                }
+                if (idOne > idTwo) {
+                    j++;
+                    if (j == listTwo.size()) {
                         break;
                     }
-                    if (modelOne.getId() < modelTwo.getId()) {
+                } else {
+                    i++;
+                    if (i == listOne.size()) {
                         break;
-                    }
-                    if (modelOne.getId() == modelTwo.getId()) {
-                        writeFile(modelOne, modelTwo, writer);
                     }
                 }
             }
         } catch (IOException e) {
             System.out.println("Ошибка записи файла");
-        }
-    }
-
-    private void writeFile(Model modelOne, Model modelTwo, FileWriter writer) {
-        try {
-            writer.write(modelOne.getId() +
-                    "\t" +
-                    modelOne.getValue() +
-                    "\t" +
-                    modelTwo.getValue() +
-                    "\n");
-        } catch (IOException e) {
-            System.out.println("Ошибка чтения файла");
         }
     }
 }

@@ -1,6 +1,6 @@
 package ru.t1.innerjoin.parsers;
 
-import ru.t1.innerjoin.models.Model;
+import ru.t1.innerjoin.models.PairKeyValue;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -13,21 +13,8 @@ import java.util.Optional;
 public class ParserTxt implements IParser {
 
     @Override
-    public Optional<List<List<Model>>> parser(String pathFileOne, String pathFileTwo) {
-        List<List<Model>> modelsList = new ArrayList<>();
-        Optional<List<Model>> listOne = readFileAndParsing(pathFileOne);
-        Optional<List<Model>> listTwo = readFileAndParsing(pathFileTwo);
-        if (listOne.isPresent() && listTwo.isPresent()) {
-            modelsList.add(listOne.get());
-            modelsList.add(listTwo.get());
-            printLists(modelsList);
-            return Optional.of(modelsList);
-        }
-        return Optional.empty();
-    }
-
-    private Optional<List<Model>> readFileAndParsing(String path) {
-        List<Model> list = new ArrayList<>();
+    public Optional<List<PairKeyValue>> readFileAndParsing(String path) {
+        List<PairKeyValue> list = new ArrayList<>();
         try(FileReader fileReader = new FileReader(path);
             BufferedReader reader = new BufferedReader(fileReader)) {
             System.out.println("Читаем файл: " + path);
@@ -36,13 +23,15 @@ public class ParserTxt implements IParser {
             while (line != null) {
                 String[] lineSplit = line.split("\t", -1);
                 if (isValidLine(lineSplit, numberLine)) {
-                    Model model = new Model(Integer.parseInt(lineSplit[0].trim()), lineSplit[1].trim().charAt(0));
-                    list.add(model);
+                    PairKeyValue pairKeyValue = new PairKeyValue(Integer.parseInt(lineSplit[0].trim()),
+                            lineSplit[1].trim());
+                    list.add(pairKeyValue);
                 }
                 line = reader.readLine();
                 numberLine++;
             }
             if (list.size() != 0) {
+                printLists(list);
                 return Optional.of(list);
             } else  {
                 System.out.println("Файл " + path + " оказался пустым" );
@@ -63,22 +52,18 @@ public class ParserTxt implements IParser {
             return false;
         }
         if (lineArray.length == 2) {
-            if (!isNumeric(lineArray[0].trim())) {
+            if (!isInteger(lineArray[0].trim())) {
                 System.out.println("Первое поле (" + lineArray[0] + ") в " + numberLine + " строке не является числовым");
                 return false;
             }
-            if (!isChar(lineArray[1])) {
-                System.out.println("Второе поле (" + lineArray[1] + ") в " + numberLine + " строке не является символьным");
-                return false;
-            }
+            return isValidString(lineArray[1], numberLine);
         } else {
             System.out.println("Ошибка форматирования в строке: " + numberLine);
             return false;
         }
-        return true;
     }
 
-    private boolean isNumeric(String line){
+    private boolean isInteger(String line){
         try {
             Integer.parseInt(line);
             return true;
@@ -87,17 +72,26 @@ public class ParserTxt implements IParser {
         }
     }
 
-    private boolean isChar(String line) {
-        return line.trim().length() == 1;
+    private boolean isValidString(String line, int numberLine) {
+        if (line.trim().length() == 0) {
+            System.out.println("Второе поле (" + line + ") в " +
+                    numberLine +
+                    " строке является пустым");
+            return false;
+        }
+        if (line.trim().length() > 100) {
+            System.out.println("Второе поле (" + line + ") в " +
+                    numberLine +
+                    " строке первышает максимальные допустимые 100 символов");
+            return false;
+        }
+        return true;
     }
 
-    private void printLists(List<List<Model>> lists) {
-        for (List<Model> list : lists) {
-            System.out.println("Список: ");
-            for (Model model : list) {
-                System.out.println(model.getId() + "   " + model.getValue());
-            }
-            System.out.println("\n");
+    private void printLists(List<PairKeyValue> list) {
+        for (PairKeyValue pairKeyValue : list) {
+            System.out.println(pairKeyValue.getId() + "   " + pairKeyValue.getValue());
         }
+        System.out.println("\n");
     }
 }

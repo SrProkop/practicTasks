@@ -1,5 +1,12 @@
 2	C	A
 2	C	E
+2	C	G
 3	D	E
+3	D	L
 2	B	A
 2	B	E
+2	B	G
+7	M	U
+9	B	X
+9	B	O
+9	B	P
