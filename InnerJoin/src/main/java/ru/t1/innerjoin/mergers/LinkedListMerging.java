@@ -9,36 +9,44 @@ import java.util.*;
 
 public class LinkedListMerging implements IMerging <LinkedList<PairKeyValue>> {
     @Override
-    public void createFileMergers(LinkedList<PairKeyValue> listOne, LinkedList<PairKeyValue> listTwo, String path) {
+    public void createFileMergers(LinkedList<PairKeyValue> listOne,
+                                  LinkedList<PairKeyValue> listTwo,
+                                  String path) {
         try (FileWriter writer = new FileWriter(path, false)){
-            for(int i = 0, j = 0; i < listOne.size() || j < listTwo.size();) {
-                PairKeyValue pairOne = listOne.get(i);
-                PairKeyValue pairTwo = listTwo.get(j);
-                int idOne = pairOne.getId();
-                int idTwo = pairTwo.getId();
-                if (idOne == idTwo) {
-                    int nextIndexTwo = j;
-                    int nextIdTwo = idTwo;
-                    while (idOne == nextIdTwo) {
-                        PairWriter.write(idOne, pairOne.getValue(), pairTwo.getValue(), writer);
-                        nextIndexTwo++;
-                        if (listTwo.size() > nextIndexTwo) {
-                            nextIdTwo = listTwo.get(nextIndexTwo).getId();
-                            pairTwo = listTwo.get(nextIndexTwo);
+            ListIterator<PairKeyValue> iteratorOne = listOne.listIterator();
+            ListIterator<PairKeyValue> iteratorTwo = listTwo.listIterator();
+            PairKeyValue pairOne = iteratorOne.next();
+            PairKeyValue pairTwo = iteratorTwo.next();
+            while ((iteratorOne.hasNext() || pairOne.getId() > pairTwo.getId())
+                    && (iteratorTwo.hasNext() || pairOne.getId() < pairTwo.getId())) {
+                if (pairOne.getId() > pairTwo.getId()) {
+                    pairTwo = iteratorTwo.next();
+                } else if (pairOne.getId() < pairTwo.getId()) {
+                    pairOne = iteratorOne.next();
+                }
+                while (pairOne.getId() == pairTwo.getId()) {
+                    int countIterations = 0;
+                    while (pairOne.getId() == pairTwo.getId()) {
+                        PairWriter.write(pairOne.getId(),
+                                pairOne.getValue(),
+                                pairTwo.getValue(),
+                                writer);
+                        countIterations++;
+                        if (iteratorTwo.hasNext()) {
+                            pairTwo = iteratorTwo.next();
                         } else {
                             break;
                         }
                     }
-                }
-                if (idOne > idTwo) {
-                    j++;
-                    if (j == listTwo.size()) {
+                    if (!iteratorOne.hasNext()) {
                         break;
                     }
-                } else {
-                    i++;
-                    if (i == listOne.size()) {
-                        break;
+                    PairKeyValue pairOneOld = pairOne;
+                    pairOne = iteratorOne.next();
+                    if (pairOneOld.getId() == pairOne.getId()) {
+                        for (int i = 0; i < countIterations; i++) {
+                            pairTwo = iteratorTwo.previous();
+                        }
                     }
                 }
             }

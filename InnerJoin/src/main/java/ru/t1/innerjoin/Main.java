@@ -18,39 +18,23 @@ public class Main {
 
     private static final String PATH_ONE = "arrayListMerging.txt";
     private static final String PATH_TWO = "linkedListMerging.txt";
-    private static final String PATH_FREE = "mapMerging.txt";
+    private static final String PATH_THREE = "mapMerging.txt";
 
     public static void main(String[] args) {
         IParser parserTxt = new ParserTxt();
         int countArgs = args.length;
         if (countArgs >= 2) {
             Optional<List<PairKeyValue>> listOne = parserTxt.readFileAndParsing(args[0]);
-            Optional<List<PairKeyValue>> listTwo = parserTxt.readFileAndParsing(args[1]);
-            if (listOne.isPresent() && listTwo.isPresent()) {
-                switch (countArgs) {
-                    case 2:
-                        createFileMerging(PATH_ONE, PATH_TWO, PATH_FREE,
-                                listOne.get(), listTwo.get());
-                        break;
-                    case 3:
-                        createFileMerging(args[2], PATH_TWO, PATH_FREE,
-                                listOne.get(), listTwo.get());
-                        break;
-                    case 4:
-                        createFileMerging(args[2], args[3], PATH_FREE,
-                                listOne.get(), listTwo.get());
-                        break;
-                    case 5:
-                        createFileMerging(args[2], args[3], args[4],
-                                listOne.get(), listTwo.get());
-                        break;
-                    default:
-                        System.out.println("Ошибка ввода аргументов: " +
-                                "Аргументов встретилось больше, чем ожидалось");
-                        break;
-
+            if (listOne.isPresent()) {
+                Optional<List<PairKeyValue>> listTwo = parserTxt.readFileAndParsing(args[1]);
+                if (listTwo.isPresent()) {
+                    createFileMerging(countArgs >= 3 ? args[2] : PATH_ONE,
+                            countArgs >= 4 ? args[3] : PATH_TWO,
+                            countArgs >= 5 ? args[4] : PATH_THREE,
+                            listOne.get(),
+                            listTwo.get());
                 }
-            }  else {
+            } else {
                 System.out.println("Ошибка чтения списков. " +
                         "Один или несколько списков не были прочитаны");
             }
@@ -77,8 +61,8 @@ public class Main {
         linkedListMerging.createFileMergers(linkedListOne, linkedListTwo, pathTwo);
 
         MergingProxy mapMerging = new MergingProxy(new MapMerging());
-        HashMap<Integer, List<PairKeyValue>> hashMapOne = ConverterListToMap.convert(listOne);
-        HashMap<Integer, List<PairKeyValue>> hashMapTwo = ConverterListToMap.convert(linkedListTwo);
+        HashMap<Integer, List<String>> hashMapOne = ConverterListToMap.convert(listOne);
+        HashMap<Integer, List<String>> hashMapTwo = ConverterListToMap.convert(listTwo);
         mapMerging.createFileMergers(hashMapOne, hashMapTwo, pathThree);
 
     }

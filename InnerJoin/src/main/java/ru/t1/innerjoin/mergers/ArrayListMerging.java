@@ -9,22 +9,19 @@ import java.util.ArrayList;
 
 public class ArrayListMerging implements IMerging<ArrayList<PairKeyValue>>{
     @Override
-    public void createFileMergers(ArrayList<PairKeyValue> listOne, ArrayList<PairKeyValue> listTwo, String path) {
+    public void createFileMergers(ArrayList<PairKeyValue> listOne,
+                                  ArrayList<PairKeyValue> listTwo,
+                                  String path) {
         try (FileWriter writer = new FileWriter(path, false)){
-            listOne.stream().
-                    forEach(pairOne -> listTwo.stream().
-                            forEach(pairTwo -> writeFile(pairOne, pairTwo, writer)));
+            listOne.stream()
+                    .forEach(pairOne -> listTwo.stream()
+                            .filter(pairTwo -> pairOne.getId() == pairTwo.getId())
+                            .forEach(pairTwo -> PairWriter.write(pairOne.getId(),
+                                    pairOne.getValue(),
+                                    pairTwo.getValue(),
+                                    writer)));
         } catch (IOException e) {
             System.out.println("Ошибка записи файла");
-        }
-    }
-
-    private void writeFile(PairKeyValue pairOne, PairKeyValue pairTwo, FileWriter writer) {
-        if (pairOne.getId() == pairTwo.getId()) {
-            PairWriter.write(pairOne.getId(),
-                    pairOne.getValue(),
-                    pairTwo.getValue(),
-                    writer);
         }
     }
 }

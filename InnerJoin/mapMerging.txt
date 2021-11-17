@@ -5,7 +5,6 @@
 2	B	E
 2	B	G
 3	D	E
-3	D	L
 7	M	U
 9	B	X
 9	B	O

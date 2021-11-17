@@ -31,7 +31,6 @@ public class ParserTxt implements IParser {
                 numberLine++;
             }
             if (list.size() != 0) {
-                printLists(list);
                 return Optional.of(list);
             } else  {
                 System.out.println("Файл " + path + " оказался пустым" );
@@ -86,12 +85,5 @@ public class ParserTxt implements IParser {
             return false;
         }
         return true;
-    }
-
-    private void printLists(List<PairKeyValue> list) {
-        for (PairKeyValue pairKeyValue : list) {
-            System.out.println(pairKeyValue.getId() + "   " + pairKeyValue.getValue());
-        }
-        System.out.println("\n");
     }
 }
